@@ -12,12 +12,12 @@ namespace Методы_Set
         {
         }
 
-        public static void CreateNewObject()
+        public static void CreateObject()
         {
             //Создание объекта на карте
         }
 
-        public static void CreateRandomNumber()
+        public static void SetRandomChance()
         {
             _chance = Random.Range(0, 100);
         }
